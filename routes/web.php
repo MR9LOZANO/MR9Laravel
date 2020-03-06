@@ -19,7 +19,7 @@ Route::view('/', 'home')->name('home');
 
 Route::view('about', 'about')->name('about'); 
 
-Route::get('porta','PortafolioController')->name('portafolio');
+Route::get('portafolio','PortafolioController@index')->name('portafolio');
 
 Route::view('contacto', 'contactar')->name('contacto'); 
 
